@@ -1,0 +1,86 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-image: url('./sample-pattern.png') ;/*Set Image Background*/
+}
+
+header {
+   background-color: #FFFFFF;
+   width: 100%;
+   position: fixed;
+   height: 65px;
+}
+
+#logo {
+   float: logo;/* Set Value here */
+   padding-top: 1px;/* Set Padding Top */
+   padding-left: 50px;/* Set Margin Left */
+   margin-top: 5px;/* Set Margin Top */
+   padding-bottom: 0px;/* Set Padding Bottom */
+}
+
+nav {
+   float: menu;/* Set Value here */
+   text-align: right;/* Set Align Text */
+   padding-right: 80px;/* Set Padding Right */
+   margin-top: 0px;/* Set Margin Top */
+}
+
+li {
+   display: inline-block;
+   margin-right: 10;/* Set Margin Right */
+   margin-bottom: 10;/* Set Margin Bottom */
+   color: blue;/* Set Color */
+}
+
+a {
+   text-decoration: none;
+}
+
+li a {
+   display: block;
+   padding: 10px 15px;
+}
+
+li a:hover {
+   background-color: blue;
+   color: #FFFFFF;
+}
+
+h1 {
+   padding-top: 100px;
+   color: rgb(95, 93, 93);
+   text-align: center;/* Set Align Text */
+   margin-bottom: 20;/* Set Margin Bottom */
+   font-size: 24px;/* Set Font Size */
+}
+
+h3 {
+   color: blue;/* Set Color */
+   padding-bottom: 10;/* Set Padding Bottom */
+}
+
+#article-list article {
+   
+   text-align: left;/* Set Align Text */
+   background-color: white;/* Set Background color */
+   padding: 10;/* Set Padding */
+   margin-bottom: 10;
+   margin-top: 1px;
+   margin-left: 200px;
+   margin-bottom: 10px;
+   margin-right: 200px;
+}
+
+footer {
+   width: ;/* Set value here */
+   background-color: black;/* Set Background color */
+   color: white;/* Set Color */
+   text-align: center;/* Set Align Text */
+   padding: 10;/* Set Padding */
+   font-size : 14;/* Set font Size */
+   margin-top : 10/* Set Margin Top */
+}

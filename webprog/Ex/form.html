@@ -1,0 +1,56 @@
+<!doctype html>
+<html> 
+  <head>
+   <title>Forms</title>
+  </head>
+  <body>
+	<h1>Buat Account Baru!</h1>
+	<h2>Sign up Form</h2>
+		<form action="./wellcome.html" method="post">
+			<label for="first-name"> First Name</label>
+			<br>
+			<input type="text" name="first-name" value="" id="first-name" required>
+			<br>
+			<label for="last-name"> Last Name</label>
+			<br>
+			<input type="text" name="last-name" value="" id="last-name" required>
+			<br>
+			<label for="gender">Gender :</label>
+			<br>
+			<input type="radio" name="gender" value="male" id="male" required>
+			<label for=="male-radio"> Male</label>
+			<br>
+			<input type="radio" name="gender" value="female" id="female" required>
+			<label for=="female-radio"> Female</label>
+			<br>
+			<label for="nationaly"> Nationaly</label>
+			<br>
+			<select name="nationaly" id="nationaly">
+				<option value="Indonesian">Indonesian</option>
+				<option value="Malaysia">Malaysia</option>
+				<option value="America">America</option>
+				<option value="America">Other</option>
+			</select>
+			<br>
+			<label for="bahasa">Bahasa yang dikuasai :</label>
+			<br>
+			<input type="checkbox" name="bahasa" value="indonesia" id="checkbox-indonesia">
+			<label for="checkbox-indonesia">Bahasa Indonesia</label>
+			<br>
+			<input type="checkbox" name="bahasa" value="english" id="checkbox-english">
+			<label for="checkbox-english">English</label>
+			<br>
+			<input type="checkbox" name="bahasa" value="other" id="checkbox-other">
+			<label for="checkbox-other">Other</label>
+			<br>
+			<label for="about"> Bio</label>
+			<br>
+			<textarea name="about" rows="8" cols="40">
+			</textarea>
+			<br>
+			<input type="submit" value="sign up">
+			<br>
+		</form>
+	</body>
+</html>
+  
